@@ -35,7 +35,7 @@ print(totalSum.rank(ascending=False, method='dense').sort_values().head()) #memb
 ##Plot 1 (Bar Plot)
 totalSum.plot( 
     kind='bar',
-    style='r',
+    style='b',
     alpha=0.4,
     title="Total Values for Country"
 )
@@ -49,4 +49,5 @@ ax = pivedu.plot(
 )
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.show() #memunculkan grafik
+
 
